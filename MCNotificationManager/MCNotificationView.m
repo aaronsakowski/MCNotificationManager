@@ -55,7 +55,7 @@ static CGFloat const kMCNotificationViewImageSize = 30;
     
 	bounds.origin.y += 20; bounds.size.height -= 20;
 	self.imageView.frame = CGRectMake(offset,
-                                      20, // status bar height
+                                      27, // status bar height + offset to vertically center image
                                       kMCNotificationViewImageSize,
                                       kMCNotificationViewImageSize);
     
