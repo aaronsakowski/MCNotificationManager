@@ -8,10 +8,10 @@
 
 #import "MCNotificationView.h"
 
-static CGFloat const kMCNotificationViewWidth     = 300;
+static CGFloat const kMCNotificationViewWidth     = 320;
 static CGFloat const kMCNotificationViewHeight    = 64;
-static CGFloat const kMCNotificationViewPadding   = 10;
-static CGFloat const kMCNotificationViewImageSize = 44;
+static CGFloat const kMCNotificationViewPadding   = 8;
+static CGFloat const kMCNotificationViewImageSize = 30;
 
 @interface MCNotificationView ()
 
